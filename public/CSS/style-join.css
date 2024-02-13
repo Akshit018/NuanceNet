@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border : border-box;
+    text-decoration: none;
+}
+
+/* header */
+.navbar{
+    height: 50px;
+    background-color: #1C110A;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.app-name{
+    color: #E5EBEA;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* main area */
+
+.container{
+    height: 500px;
+    width: 100%;
+    background-color: #DBD9DB;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.login-form{
+
+    background-color: #B098A4;
+    position: relative;
+    top: 100px;
+    width: 450px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.h{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.t1{
+
+    font-size: 1.3rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+
+}
+
+.t1 input{
+    width: 300px;
+}
+
+.password{
+
+    font-size: 1.3rem;
+
+}
+
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input{
+    margin: 5px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.t2{
+    margin-right: 2px;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+select{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+
+/* footer */
+.foot{
+    height: 20px;
+    background-color: #1C110A;
+}

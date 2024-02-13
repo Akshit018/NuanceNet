@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border : border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #1C110A;
+}
+
+/* header */
+.navbar{
+    height: 50px;
+    background-color: #1C110A;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.app-name{
+    color: #E5EBEA;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* main area */
+
+.main-area{
+    height: 500px;
+    width: 100%;
+    background-color: #DBD9DB;
+    display: flex;
+}
+
+.left-area{
+    width: 30%;
+    height: 100%;
+    border: 2px solid black;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+li{
+    padding: 2px;
+}
+
+
+
+.room-name{
+    background-color:#6F732F;
+    border: 2px black solid;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px;
+    margin: 10px;
+}
+
+.right-area{
+    width: 70%;
+    height: 100%;
+    border: 2px solid black;
+   
+} 
+
+.message-area{
+    height: 91%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.message-box{
+
+    background-color: #B098A4;
+    color: #1C110A;
+    border: 2px solid black ;
+    border-radius: 10px;
+    margin: 5px;
+    width: fit-content;
+    padding: 3px;
+    
+}
+
+.host-message{
+    float: right;
+    clear: both;
+    margin-left: 30%;
+}
+
+.non-host-message{
+    float: left;
+    clear: both;
+    margin-right: 30%;
+}
+
+.sender-name{
+
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.message{
+    font-size: 0.9rem;
+}
+
+.tstamp{
+    float: right;
+    font-size: 0.6rem;
+}
+
+
+.type-panel{
+    width: 99%;
+    background-color: blue;
+    height: 8%;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    
+}
+
+.message-input{
+    width: 90%;
+    border: none;
+}
+
+.send-button{
+    width:10%;
+    border: none;
+    color: #1C110A;
+    background-color: #6F732F;
+}
+
+/* system message */
+
+.system-message{
+    background-color: #6F732F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 60%;
+    padding: 5px;
+    margin: 5px auto;
+    clear: both;
+}
+
+
+
+/* footer */
+.foot{
+    height: 20px;
+    width: 100%;
+    background-color: #1C110A;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NuanceNet</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="app-name">☯NuanceNet☯</div>
+      </div>
+    </header>
+
+    <div class="main-area">
+      <div class="left-area">
+
+        <div class="room-name"><h2></h2></div>
+        <ol id="members">
+          
+        </ol>
+
+      </div>
+
+      <div class="right-area">
+
+        <div class="message-area" id="message-area">
+            
+          <div class="message-box host-message">
+            <div class="sender-name">John</div>
+            <div class="message">
+              <p>hello</p>
+            </div>
+            <div class="tstamp">
+              <p>13:24 28-01-24</p>
+            </div>
+          </div>
+
+          <div class="message-box non-host-message">
+            <div class="sender-name">Doe</div>
+            <div class="message">
+              <p>hey there, how are you?</p>
+            </div>
+            <div class="tstamp">
+              <p>13:24 28-01-24</p>
+            </div>
+          </div>
+
+          <!-- <div class="tempp">
+            <div class="system-message">
+              <p>xyz has joined the chat</p>
+            </div>
+          </div> -->
+          
+
+        </div>
+        
+        <form  class="type-panel" id="chat-form">
+          <input type="text" placeholder="message" class="message-input" />
+          <button class="send-button">
+            <i class="fa-solid fa-location-arrow"></i>
+          </button>
+        </form>
+        
+      
+ 
+    </div>
+
+    <footer>
+      <div class="foot"></div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.11.2/qs.min.js"
+      integrity="sha512-vCegEXqPUYpZsTGz2lk0jaQ1psxtFeniVJACAXhMVxuoYa/N4nZkjoVFOxLwP7uGeQOoemiz7DQrIpRTj4IBPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script src="JS/client.js"></script>
+  </body>
+</html>
